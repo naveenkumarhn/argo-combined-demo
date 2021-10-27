@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: argo-combined-app
+  name: argo-automation-app
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
@@ -9,11 +9,11 @@ spec:
   project: production
   source:
     path: kustomize/overlays/production
-    repoURL: https://github.com/naveenkumarhn/argo-combined-app
+    repoURL: https://github.com/naveenkumarhn/argo-automation-app
     targetRevision: HEAD
     kustomize:
       images:
-      - naveenkumar003/argo-combined-app:latest
+      - naveenkumar003/argo-automation-app:latest
   destination:
     server: https://kubernetes.default.svc
     namespace: production

@@ -10,11 +10,11 @@ spec:
     - port: 12000
       targetPort: 12000
   github:
-    argo-combined-app:
-      owner: vfarcic
-      repository: argo-combined-app
+    argo-automation-app:
+      owner: naveenkumarhn
+      repository: argo-automation-app
       webhook:
-        endpoint: /argo-combined-app
+        endpoint: /argo-automation-app
         port: "12000"
         method: POST
         url: http://acme.com

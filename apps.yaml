@@ -10,7 +10,7 @@ metadata:
 spec:
   project: production
   source:
-    repoURL: https://github.com/naveenkumarhn/argo-combined-demo.git
+    repoURL: https://github.com/naveenkumarhn/argo-automation.git
     targetRevision: HEAD
     path: production
   destination:
@@ -33,7 +33,7 @@ metadata:
 spec:
   project: staging
   source:
-    repoURL: https://github.com/naveenkumarhn/argo-combined-demo.git
+    repoURL: https://github.com/naveenkumarhn/argo-automation.git
     targetRevision: HEAD
     path: staging
   destination:

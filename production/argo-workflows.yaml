@@ -9,7 +9,7 @@ spec:
   project: production
   source:
     path: argo-workflows/overlays/production
-    repoURL: https://github.com/naveenkumarhn/argo-combined-demo
+    repoURL: https://github.com/naveenkumarhn/argo-automation
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
