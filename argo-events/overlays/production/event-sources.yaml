@@ -18,14 +18,6 @@ spec:
         port: "12000"
         method: POST
         url: http://webhook.10.0.1.171
-      events:
-        - "*"
-      apiToken:
-        name: github-access
-        key: token
-      insecure: true
-      active: true
-      contentType: json
 
 ---
 
