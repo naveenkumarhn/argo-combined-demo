@@ -48,4 +48,4 @@ spec:
            name: github-eventsource-svc
            port:
              number: 12000
-    host: events.sds.local
+    host: dd68-65-49-70-66.ngrok.io
