@@ -17,7 +17,7 @@ spec:
         endpoint: /argo-combined-app
         port: "12000"
         method: POST
-        url: http://dd68-65-49-70-66.ngrok.io
+        url: http://f29c-65-49-70-66.ngrok.io
       events:
         - "*"
       apiToken:
@@ -48,4 +48,4 @@ spec:
            name: github-eventsource-svc
            port:
              number: 12000
-    host: dd68-65-49-70-66.ngrok.io
+    host: f29c-65-49-70-66.ngrok.io
